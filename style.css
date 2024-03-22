@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to bottom, #e63da6, #bba2f3);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main button{
+    background-color: #a13a77;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.container{
+    height: max-content 300px;
+}
+
+.container textarea{
+    width: 90%; 
+    height: 500px solid;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    border-radius: 10px;
+    resize: none;
+}
+
+.output-text {
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px solid;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: vertical;
+    opacity: 0.5;
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
